@@ -12,6 +12,7 @@ export const TravelItem = ({ title, image, ...rest }: TravelItemProps) => {
       alignItems="center"
       justifyContent="center"
       flexDirection={{ base: 'row', lg: 'column' }}
+      w={{ base: 'auto', lg: 100 }}
       {...rest}
     >
       <Image src={image} alt={title} display={{ base: 'none', lg: 'flex' }} />

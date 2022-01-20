@@ -3,7 +3,11 @@ import { TravelItem } from './TravelItem';
 
 export const TravelTypes = () => {
   return (
-    <Flex width="100%" px={{ base: '10', lg: '32' }} py="20">
+    <Flex
+      width="100%"
+      px={{ base: '10', lg: '32' }}
+      py={{ base: '8', lg: '10' }}
+    >
       <SimpleGrid
         w="100%"
         display={{ base: 'grid', lg: 'flex' }}
