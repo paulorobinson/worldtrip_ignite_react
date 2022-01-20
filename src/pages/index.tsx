@@ -1,9 +1,8 @@
-import { Box, Flex, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Banner } from './components/Banner';
 import Header from './components/Header';
-import { TravelItem } from './components/TravelItem';
 import { TravelTypes } from './components/TravelTypes';
 
 const Home: NextPage = () => {
