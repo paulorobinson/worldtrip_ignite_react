@@ -1,9 +1,12 @@
-import { Box, Flex, Heading } from '@chakra-ui/react';
+import { Flex, Heading } from '@chakra-ui/react';
+
 import type { NextPage } from 'next';
 import Head from 'next/head';
+
 import { Banner } from './components/Banner';
 import { Divider } from './components/Divider';
 import Header from './components/Header';
+import { Carousel } from './components/Carousel';
 import { TravelTypes } from './components/TravelTypes';
 
 const Home: NextPage = () => {
@@ -30,6 +33,15 @@ const Home: NextPage = () => {
             Vamos nessa? <br />
             Então escolha seu continente
           </Heading>
+        </Flex>
+
+        <Flex
+          w="100%"
+          // h="500"
+          px={{ base: '0', lg: '32' }}
+          paddingBottom={{ base: '8', lg: '10' }}
+        >
+          <Carousel />
         </Flex>
       </Flex>
     </>
