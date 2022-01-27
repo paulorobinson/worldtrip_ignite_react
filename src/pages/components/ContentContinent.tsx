@@ -1,4 +1,6 @@
-import { Flex, Grid, GridItem, Text } from '@chakra-ui/react';
+import { Flex, Grid, GridItem, Text, Tooltip } from '@chakra-ui/react';
+
+import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 export const ContentContinent = () => {
   return (
@@ -61,13 +63,25 @@ export const ContentContinent = () => {
             >
               27
             </Text>
-            <Text
-              fontSize={{ base: '16', lg: '20' }}
-              fontWeight="semibold"
-              color="gray.900"
-            >
-              cidades +100
-            </Text>
+            <Flex align="center" justify="center">
+              <Text
+                fontSize={{ base: '16', lg: '20' }}
+                fontWeight="semibold"
+                color="gray.900"
+                paddingRight="2"
+              >
+                cidades +100
+              </Text>
+              <Tooltip
+                color="gray.900"
+                bg="gray.300"
+                label="As cidades +100 são as cidades que o continente possui que estão entre as 100 cidades mais visitadas do mundo."
+              >
+                <span>
+                  <AiOutlineInfoCircle color="#999999" />
+                </span>
+              </Tooltip>
+            </Flex>
           </Flex>
         </Flex>
       </GridItem>
