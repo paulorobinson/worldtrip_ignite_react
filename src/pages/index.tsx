@@ -37,7 +37,6 @@ const Home: NextPage = () => {
 
         <Flex
           w="100%"
-          // h="500"
           px={{ base: '0', lg: '32' }}
           paddingBottom={{ base: '8', lg: '10' }}
         >
