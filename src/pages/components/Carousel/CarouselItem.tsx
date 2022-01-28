@@ -13,7 +13,7 @@ export const CarouselItem = ({
   description,
 }: CarouselItemProps) => {
   return (
-    <Link href="./" passHref>
+    <Link href="/" passHref>
       <Flex
         as="a"
         w="100%"

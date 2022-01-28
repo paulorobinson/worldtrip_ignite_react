@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Flex w="100%" direction="column">
       <Flex justify="center" align="center" p="6">
-        <Link href="/" passHref>
+        <Link href="/">
           <a>
             <Image src="/images/Logo.svg" alt="worldtrip" h="10" />
           </a>
