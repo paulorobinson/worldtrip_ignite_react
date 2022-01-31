@@ -1,0 +1,557 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "continentName": "América do Norte",
+      "totalCountries": 4,
+      "totalLanguage": 4,
+      "plus100": [
+        {
+          "position": 8,
+          "country": "EUA",
+          "city": "Nova York"
+        },
+        {
+          "position": 22,
+          "country": "EUA",
+          "city": "Miami"
+        },
+        {
+          "position": 27,
+          "country": "EUA",
+          "city": "Los Angeles"
+        },
+        {
+          "position": 28,
+          "country": "EUA",
+          "city": "Las Vegas"
+        },
+        {
+          "position": 44,
+          "country": "EUA",
+          "city": "Orlando"
+        },
+        {
+          "position": 73,
+          "country": "EUA",
+          "city": "São Francisco"
+        },
+        {
+          "position": 77,
+          "country": "EUA",
+          "city": "Honolulu"
+        },
+        {
+          "position": 35,
+          "country": "México",
+          "city": "Cancun"
+        },
+        {
+          "position": 88,
+          "country": "México",
+          "city": "Cidade do México"
+        },
+        {
+          "position": 52,
+          "country": "Canadá",
+          "city": "Toronto"
+        },
+        {
+          "position": 71,
+          "country": "Canadá",
+          "city": "Vancouver"
+        },
+        {
+          "position": 58,
+          "country": "República Dominicana",
+          "city": "Punta Cana"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "continentName": "América do Sul",
+      "totalCountries": 12,
+      "totalLanguage": 5,
+      "plus100": [
+        {
+          "position": 89,
+          "country": "Argentina",
+          "city": "Buenos Aires"
+        },
+        {
+          "position": 91,
+          "country": "Peru",
+          "city": "Lima"
+        },
+        {
+          "position": 93,
+          "country": "Chile",
+          "city": "Santiago"
+        },
+        {
+          "position": 94,
+          "country": "Brasil",
+          "city": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "continentName": "Ásia",
+      "totalCountries": 50,
+      "totalLanguage": 4,
+      "plus100": [
+        {
+          "position": 1,
+          "country": "China",
+          "city": "Hong Kong"
+        },
+        {
+          "position": 10,
+          "country": "China",
+          "city": "Shenzhen"
+        },
+        {
+          "position": 18,
+          "country": "China",
+          "city": "Guangzou"
+        },
+        {
+          "position": 26,
+          "country": "China",
+          "city": "Shanghai"
+        },
+        {
+          "position": 54,
+          "country": "China",
+          "city": "Pequim"
+        },
+        {
+          "position": 65,
+          "country": "China",
+          "city": "Zhuhai"
+        },
+        {
+          "position": 84,
+          "country": "China",
+          "city": "Guilin"
+        },
+        {
+          "position": 12,
+          "country": "Turquia",
+          "city": "Istambul"
+        },
+        {
+          "position": 2,
+          "country": "Tailândia",
+          "city": "Bangkok"
+        },
+        {
+          "position": 11,
+          "country": "Tailândia",
+          "city": "Phuket"
+        },
+        {
+          "position": 25,
+          "country": "Tailândia",
+          "city": "Pattaya"
+        },
+        {
+          "position": 64,
+          "country": "Tailândia",
+          "city": "Chiang Mai"
+        },
+        {
+          "position": 100,
+          "country": "Tailândia",
+          "city": "Krabi"
+        },
+        {
+          "position": 4,
+          "country": "Singapura",
+          "city": "Singapura"
+        },
+        {
+          "position": 5,
+          "country": "Macau",
+          "city": "Macau"
+        },
+        {
+          "position": 7,
+          "country": "Emirados Árabes",
+          "city": "Dubai"
+        },
+        {
+          "position": 9,
+          "country": "Malásia",
+          "city": "Kuala Lumpur"
+        },
+        {
+          "position": 37,
+          "country": "Malásia",
+          "city": "Johor Bahru"
+        },
+        {
+          "position": 66,
+          "country": "Malásia",
+          "city": "Ilha de Penang"
+        },
+        {
+          "position": 13,
+          "country": "Índia",
+          "city": "Déli"
+        },
+        {
+          "position": 19,
+          "country": "Índia",
+          "city": "Mumbai"
+        },
+        {
+          "position": 29,
+          "country": "Índia",
+          "city": "Agra"
+        },
+        {
+          "position": 42,
+          "country": "Índia",
+          "city": "Jaipur"
+        },
+        {
+          "position": 45,
+          "country": "Índia",
+          "city": "Chennai"
+        },
+        {
+          "position": 82,
+          "country": "Índia",
+          "city": "Calcutá"
+        },
+        {
+          "position": 14,
+          "country": "Japão",
+          "city": "Tóquio"
+        },
+        {
+          "position": 30,
+          "country": "Japão",
+          "city": "Osaka"
+        },
+        {
+          "position": 67,
+          "country": "Japão",
+          "city": "Kyoto"
+        },
+        {
+          "position": 90,
+          "country": "Japão",
+          "city": "Chiba"
+        },
+        {
+          "position": 17,
+          "country": "Taiwan",
+          "city": "Taipei"
+        },
+        {
+          "position": 21,
+          "country": "Arábia Saudita",
+          "city": "Meca"
+        },
+        {
+          "position": 40,
+          "country": "Arábia Saudita",
+          "city": "Riade"
+        },
+        {
+          "position": 61,
+          "country": "Arábia Saudita",
+          "city": "Dammam"
+        },
+        {
+          "position": 24,
+          "country": "Coreia do Sul",
+          "city": "Seul"
+        },
+        {
+          "position": 33,
+          "country": "Indonésia",
+          "city": "Dempassar"
+        },
+        {
+          "position": 60,
+          "country": "Indonésia",
+          "city": "Jakarta"
+        },
+        {
+          "position": 97,
+          "country": "Indonésia",
+          "city": "Batam"
+        },
+        {
+          "position": 39,
+          "country": "Vietnã",
+          "city": "Ho Chi Minh"
+        },
+        {
+          "position": 51,
+          "country": "Vietnã",
+          "city": "Hanói"
+        },
+        {
+          "position": 53,
+          "country": "Vietnã",
+          "city": "Ha Long"
+        },
+        {
+          "position": 63,
+          "country": "Israel",
+          "city": "Jerusalém"
+        },
+        {
+          "position": 81,
+          "country": "Israel",
+          "city": "Tel Aviv"
+        },
+        {
+          "position": 69,
+          "country": "Camboja",
+          "city": "Phnom Penh"
+        },
+        {
+          "position": 86,
+          "country": "Camboja",
+          "city": "Siem Reap"
+        },
+        {
+          "position": 87,
+          "country": "Coréia do Sul",
+          "city": "Jeju"
+        },
+        {
+          "position": 95,
+          "country": "Emirados Árabes Unidos",
+          "city": "Abu Dhabi"
+        },
+        {
+          "position": 98,
+          "country": "Qatar",
+          "city": "Doha"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "continentName": "África",
+      "totalCountries": 54,
+      "totalLanguage": 5,
+      "plus100": [
+        {
+          "position": 38,
+          "country": "África do Sul",
+          "city": "Johannesburg"
+        },
+        {
+          "position": 50,
+          "country": "Egito",
+          "city": "Cairo"
+        },
+        {
+          "position": 78,
+          "country": "Marrocos",
+          "city": "Marraquexe"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "continentName": "Europa",
+      "totalCountries": 50,
+      "totalLanguage": 6,
+      "plus100": [
+        {
+          "position": 12,
+          "country": "Turquia",
+          "city": "Istambul"
+        },
+        {
+          "position": 3,
+          "country": "Reino Unido",
+          "city": "Londres"
+        },
+        {
+          "position": 6,
+          "country": "França",
+          "city": "Paris"
+        },
+        {
+          "position": 92,
+          "country": "França",
+          "city": "Nice"
+        },
+        {
+          "position": 15,
+          "country": "Itália",
+          "city": "Roma"
+        },
+        {
+          "position": 32,
+          "country": "Itália",
+          "city": "Milão"
+        },
+        {
+          "position": 41,
+          "country": "Itália",
+          "city": "Veneza"
+        },
+        {
+          "position": 47,
+          "country": "Itália",
+          "city": "Florença"
+        },
+        {
+          "position": 16,
+          "country": "Turquia",
+          "city": "Antália"
+        },
+        {
+          "position": 20,
+          "country": "República Tcheca",
+          "city": "Praga"
+        },
+        {
+          "position": 23,
+          "country": "Holanda",
+          "city": "Amsterdam"
+        },
+        {
+          "position": 31,
+          "country": "Espanha",
+          "city": "Barcelona"
+        },
+        {
+          "position": 43,
+          "country": "Espanha",
+          "city": "Madri"
+        },
+        {
+          "position": 34,
+          "country": "Áustria",
+          "city": "Viena"
+        },
+        {
+          "position": 36,
+          "country": "Alemanha",
+          "city": "Berlim"
+        },
+        {
+          "position": 56,
+          "country": "Alemanha",
+          "city": "Munique"
+        },
+        {
+          "position": 83,
+          "country": "Alemanha",
+          "city": "Frankfurt"
+        },
+        {
+          "position": 46,
+          "country": "Irlanda",
+          "city": "Dublin"
+        },
+        {
+          "position": 48,
+          "country": "Rússia",
+          "city": "Moscou"
+        },
+        {
+          "position": 59,
+          "country": "Rússia",
+          "city": "São Petersburgo"
+        },
+        {
+          "position": 49,
+          "country": "Grécia",
+          "city": "Atenas"
+        },
+        {
+          "position": 68,
+          "country": "Grécia",
+          "city": "Heraclião"
+        },
+        {
+          "position": 99,
+          "country": "Grécia",
+          "city": "Rodes"
+        },
+        {
+          "position": 57,
+          "country": "Hungria",
+          "city": "Budapeste"
+        },
+        {
+          "position": 62,
+          "country": "Portugal",
+          "city": "Lisboa"
+        },
+        {
+          "position": 96,
+          "country": "Portugal",
+          "city": "Porto"
+        },
+        {
+          "position": 70,
+          "country": "Bélgica",
+          "city": "Bruxelas"
+        },
+        {
+          "position": 72,
+          "country": "Dinamarca",
+          "city": "Copenhague"
+        },
+        {
+          "position": 74,
+          "country": "Polônia",
+          "city": "Varsóvia"
+        },
+        {
+          "position": 75,
+          "country": "Polônia",
+          "city": "Cracóvia"
+        },
+        {
+          "position": 80,
+          "country": "Ucrânia",
+          "city": "Lviv"
+        },
+        {
+          "position": 85,
+          "country": "Suécia",
+          "city": "Estocolmo"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "continentName": "Oceania",
+      "totalCountries": 14,
+      "totalLanguage": 3,
+      "plus100": [
+        {
+          "position": 55,
+          "country": "Austrália",
+          "city": "Sydney"
+        },
+        {
+          "position": 76,
+          "country": "Austrália",
+          "city": "Melbourne"
+        },
+        {
+          "position": 79,
+          "country": "Nova Zelândia",
+          "city": "Auckland"
+        }
+      ]
+    }
+  ]
+}
