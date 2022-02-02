@@ -11,62 +11,86 @@
         {
           "position": 8,
           "country": "EUA",
-          "city": "Nova York"
+          "city": "Nova York",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 22,
           "country": "EUA",
-          "city": "Miami"
+          "city": "Miami",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 27,
           "country": "EUA",
-          "city": "Los Angeles"
+          "city": "Los Angeles",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 28,
           "country": "EUA",
-          "city": "Las Vegas"
+          "city": "Las Vegas",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 44,
           "country": "EUA",
-          "city": "Orlando"
+          "city": "Orlando",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 73,
           "country": "EUA",
-          "city": "São Francisco"
+          "city": "São Francisco",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 77,
           "country": "EUA",
-          "city": "Honolulu"
+          "city": "Honolulu",
+          "flag": "https://flagcdn.com/w160/us.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 35,
           "country": "México",
-          "city": "Cancun"
+          "city": "Cancun",
+          "flag": "https://flagcdn.com/w160/mx.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 88,
           "country": "México",
-          "city": "Cidade do México"
+          "city": "Cidade do México",
+          "flag": "https://flagcdn.com/w160/mx.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 52,
           "country": "Canadá",
-          "city": "Toronto"
+          "city": "Toronto",
+          "flag": "https://flagcdn.com/w160/ca.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 71,
           "country": "Canadá",
-          "city": "Vancouver"
+          "city": "Vancouver",
+          "flag": "https://flagcdn.com/w160/ca.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 58,
           "country": "República Dominicana",
-          "city": "Punta Cana"
+          "city": "Punta Cana",
+          "flag": "https://flagcdn.com/w160/do.jpg",
+          "image": "/images/cities/002.jpg"
         }
       ]
     },
@@ -81,22 +105,30 @@
         {
           "position": 89,
           "country": "Argentina",
-          "city": "Buenos Aires"
+          "city": "Buenos Aires",
+          "flag": "https://flagcdn.com/w160/ar.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 91,
           "country": "Peru",
-          "city": "Lima"
+          "city": "Lima",
+          "flag": "https://flagcdn.com/w160/pe.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 93,
           "country": "Chile",
-          "city": "Santiago"
+          "city": "Santiago",
+          "flag": "https://flagcdn.com/w160/cl.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 94,
           "country": "Brasil",
-          "city": "Rio de Janeiro"
+          "city": "Rio de Janeiro",
+          "flag": "https://flagcdn.com/w160/br.jpg",
+          "image": "/images/cities/006.jpg"
         }
       ]
     },
@@ -111,237 +143,331 @@
         {
           "position": 1,
           "country": "China",
-          "city": "Hong Kong"
+          "city": "Hong Kong",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 10,
           "country": "China",
-          "city": "Shenzhen"
+          "city": "Shenzhen",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 18,
           "country": "China",
-          "city": "Guangzou"
+          "city": "Guangzou",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 26,
           "country": "China",
-          "city": "Shanghai"
+          "city": "Shanghai",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 54,
           "country": "China",
-          "city": "Pequim"
+          "city": "Pequim",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 65,
           "country": "China",
-          "city": "Zhuhai"
+          "city": "Zhuhai",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 84,
           "country": "China",
-          "city": "Guilin"
+          "city": "Guilin",
+          "flag": "https://flagcdn.com/w160/cn.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 12,
           "country": "Turquia",
-          "city": "Istambul"
+          "city": "Istambul",
+          "flag": "https://flagcdn.com/w160/tr.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 2,
           "country": "Tailândia",
-          "city": "Bangkok"
+          "city": "Bangkok",
+          "flag": "https://flagcdn.com/w160/th.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 11,
           "country": "Tailândia",
-          "city": "Phuket"
+          "city": "Phuket",
+          "flag": "https://flagcdn.com/w160/th.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 25,
           "country": "Tailândia",
-          "city": "Pattaya"
+          "city": "Pattaya",
+          "flag": "https://flagcdn.com/w160/th.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 64,
           "country": "Tailândia",
-          "city": "Chiang Mai"
+          "city": "Chiang Mai",
+          "flag": "https://flagcdn.com/w160/th.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 100,
           "country": "Tailândia",
-          "city": "Krabi"
+          "city": "Krabi",
+          "flag": "https://flagcdn.com/w160/th.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 4,
           "country": "Singapura",
-          "city": "Singapura"
+          "city": "Singapura",
+          "flag": "https://flagcdn.com/w160/sg.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 5,
           "country": "Macau",
-          "city": "Macau"
+          "city": "Macau",
+          "flag": "https://flagcdn.com/w160/mo.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 7,
           "country": "Emirados Árabes",
-          "city": "Dubai"
+          "city": "Dubai",
+          "flag": "https://flagcdn.com/w160/ae.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 9,
           "country": "Malásia",
-          "city": "Kuala Lumpur"
+          "city": "Kuala Lumpur",
+          "flag": "https://flagcdn.com/w160/my.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 37,
           "country": "Malásia",
-          "city": "Johor Bahru"
+          "city": "Johor Bahru",
+          "flag": "https://flagcdn.com/w160/my.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 66,
           "country": "Malásia",
-          "city": "Ilha de Penang"
+          "city": "Ilha de Penang",
+          "flag": "https://flagcdn.com/w160/my.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 13,
           "country": "Índia",
-          "city": "Déli"
+          "city": "Déli",
+          "flag": "https://flagcdn.com/w160/in.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 19,
           "country": "Índia",
-          "city": "Mumbai"
+          "city": "Mumbai",
+          "flag": "https://flagcdn.com/w160/in.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 29,
           "country": "Índia",
-          "city": "Agra"
+          "city": "Agra",
+          "flag": "https://flagcdn.com/w160/in.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 42,
           "country": "Índia",
-          "city": "Jaipur"
+          "city": "Jaipur",
+          "flag": "https://flagcdn.com/w160/in.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 45,
           "country": "Índia",
-          "city": "Chennai"
+          "city": "Chennai",
+          "flag": "https://flagcdn.com/w160/in.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 82,
           "country": "Índia",
-          "city": "Calcutá"
+          "city": "Calcutá",
+          "flag": "https://flagcdn.com/w160/in.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 14,
           "country": "Japão",
-          "city": "Tóquio"
+          "city": "Tóquio",
+          "flag": "https://flagcdn.com/w160/jp.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 30,
           "country": "Japão",
-          "city": "Osaka"
+          "city": "Osaka",
+          "flag": "https://flagcdn.com/w160/jp.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 67,
           "country": "Japão",
-          "city": "Kyoto"
+          "city": "Kyoto",
+          "flag": "https://flagcdn.com/w160/jp.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 90,
           "country": "Japão",
-          "city": "Chiba"
+          "city": "Chiba",
+          "flag": "https://flagcdn.com/w160/jp.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 17,
           "country": "Taiwan",
-          "city": "Taipei"
+          "city": "Taipei",
+          "flag": "https://flagcdn.com/w160/tw.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 21,
           "country": "Arábia Saudita",
-          "city": "Meca"
+          "city": "Meca",
+          "flag": "https://flagcdn.com/w160/sa.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 40,
           "country": "Arábia Saudita",
-          "city": "Riade"
+          "city": "Riade",
+          "flag": "https://flagcdn.com/w160/sa.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 61,
           "country": "Arábia Saudita",
-          "city": "Dammam"
+          "city": "Dammam",
+          "flag": "https://flagcdn.com/w160/sa.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 24,
           "country": "Coreia do Sul",
-          "city": "Seul"
+          "city": "Seul",
+          "flag": "https://flagcdn.com/w160/kr.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 33,
           "country": "Indonésia",
-          "city": "Dempassar"
+          "city": "Dempassar",
+          "flag": "https://flagcdn.com/w160/id.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 60,
           "country": "Indonésia",
-          "city": "Jakarta"
+          "city": "Jakarta",
+          "flag": "https://flagcdn.com/w160/id.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 97,
           "country": "Indonésia",
-          "city": "Batam"
+          "city": "Batam",
+          "flag": "https://flagcdn.com/w160/id.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 39,
           "country": "Vietnã",
-          "city": "Ho Chi Minh"
+          "city": "Ho Chi Minh",
+          "flag": "https://flagcdn.com/w160/vn.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 51,
           "country": "Vietnã",
-          "city": "Hanói"
+          "city": "Hanói",
+          "flag": "https://flagcdn.com/w160/vn.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 53,
           "country": "Vietnã",
-          "city": "Ha Long"
+          "city": "Ha Long",
+          "flag": "https://flagcdn.com/w160/vn.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 63,
           "country": "Israel",
-          "city": "Jerusalém"
+          "city": "Jerusalém",
+          "flag": "https://flagcdn.com/w160/il.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 81,
           "country": "Israel",
-          "city": "Tel Aviv"
+          "city": "Tel Aviv",
+          "flag": "https://flagcdn.com/w160/il.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 69,
           "country": "Camboja",
-          "city": "Phnom Penh"
+          "city": "Phnom Penh",
+          "flag": "https://flagcdn.com/w160/kh.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 86,
           "country": "Camboja",
-          "city": "Siem Reap"
+          "city": "Siem Reap",
+          "flag": "https://flagcdn.com/w160/kh.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 87,
           "country": "Coréia do Sul",
-          "city": "Jeju"
+          "city": "Jeju",
+          "flag": "https://flagcdn.com/w160/kr.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 95,
           "country": "Emirados Árabes Unidos",
-          "city": "Abu Dhabi"
+          "city": "Abu Dhabi",
+          "flag": "https://flagcdn.com/w160/ae.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 98,
           "country": "Qatar",
-          "city": "Doha"
+          "city": "Doha",
+          "flag": "https://flagcdn.com/w160/qa.jpg",
+          "image": "/images/cities/003.jpg"
         }
       ]
     },
@@ -356,17 +482,23 @@
         {
           "position": 38,
           "country": "África do Sul",
-          "city": "Johannesburg"
+          "city": "Johannesburg",
+          "flag": "https://flagcdn.com/w160/za.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 50,
           "country": "Egito",
-          "city": "Cairo"
+          "city": "Cairo",
+          "flag": "https://flagcdn.com/w160/eg.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 78,
           "country": "Marrocos",
-          "city": "Marraquexe"
+          "city": "Marraquexe",
+          "flag": "https://flagcdn.com/w160/ma.jpg",
+          "image": "/images/cities/006.jpg"
         }
       ]
     },
@@ -381,162 +513,226 @@
         {
           "position": 12,
           "country": "Turquia",
-          "city": "Istambul"
+          "city": "Istambul",
+          "flag": "https://flagcdn.com/w160/tr.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 3,
           "country": "Reino Unido",
-          "city": "Londres"
+          "city": "Londres",
+          "flag": "https://flagcdn.com/w160/gb.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 6,
           "country": "França",
-          "city": "Paris"
+          "city": "Paris",
+          "flag": "https://flagcdn.com/w160/fr.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 92,
           "country": "França",
-          "city": "Nice"
+          "city": "Nice",
+          "flag": "https://flagcdn.com/w160/fr.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 15,
           "country": "Itália",
-          "city": "Roma"
+          "city": "Roma",
+          "flag": "https://flagcdn.com/w160/it.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 32,
           "country": "Itália",
-          "city": "Milão"
+          "city": "Milão",
+          "flag": "https://flagcdn.com/w160/it.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 41,
           "country": "Itália",
-          "city": "Veneza"
+          "city": "Veneza",
+          "flag": "https://flagcdn.com/w160/it.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 47,
           "country": "Itália",
-          "city": "Florença"
+          "city": "Florença",
+          "flag": "https://flagcdn.com/w160/it.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 16,
           "country": "Turquia",
-          "city": "Antália"
+          "city": "Antália",
+          "flag": "https://flagcdn.com/w160/tr.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 20,
           "country": "República Tcheca",
-          "city": "Praga"
+          "city": "Praga",
+          "flag": "https://flagcdn.com/w160/cz.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 23,
           "country": "Holanda",
-          "city": "Amsterdam"
+          "city": "Amsterdam",
+          "flag": "https://flagcdn.com/w160/nl.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 31,
           "country": "Espanha",
-          "city": "Barcelona"
+          "city": "Barcelona",
+          "flag": "https://flagcdn.com/w160/es.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 43,
           "country": "Espanha",
-          "city": "Madri"
+          "city": "Madri",
+          "flag": "https://flagcdn.com/w160/es.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 34,
           "country": "Áustria",
-          "city": "Viena"
+          "city": "Viena",
+          "flag": "https://flagcdn.com/w160/at.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 36,
           "country": "Alemanha",
-          "city": "Berlim"
+          "city": "Berlim",
+          "flag": "https://flagcdn.com/w160/de.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 56,
           "country": "Alemanha",
-          "city": "Munique"
+          "city": "Munique",
+          "flag": "https://flagcdn.com/w160/de.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 83,
           "country": "Alemanha",
-          "city": "Frankfurt"
+          "city": "Frankfurt",
+          "flag": "https://flagcdn.com/w160/de.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 46,
           "country": "Irlanda",
-          "city": "Dublin"
+          "city": "Dublin",
+          "flag": "https://flagcdn.com/w160/ie.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 48,
           "country": "Rússia",
-          "city": "Moscou"
+          "city": "Moscou",
+          "flag": "https://flagcdn.com/w160/ru.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 59,
           "country": "Rússia",
-          "city": "São Petersburgo"
+          "city": "São Petersburgo",
+          "flag": "https://flagcdn.com/w160/ru.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 49,
           "country": "Grécia",
-          "city": "Atenas"
+          "city": "Atenas",
+          "flag": "https://flagcdn.com/w160/gr.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 68,
           "country": "Grécia",
-          "city": "Heraclião"
+          "city": "Heraclião",
+          "flag": "https://flagcdn.com/w160/gr.jpg",
+          "image": "/images/cities/008.jpg"
         },
         {
           "position": 99,
           "country": "Grécia",
-          "city": "Rodes"
+          "city": "Rodes",
+          "flag": "https://flagcdn.com/w160/gr.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 57,
           "country": "Hungria",
-          "city": "Budapeste"
+          "city": "Budapeste",
+          "flag": "https://flagcdn.com/w160/hu.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 62,
           "country": "Portugal",
-          "city": "Lisboa"
+          "city": "Lisboa",
+          "flag": "https://flagcdn.com/w160/pt.jpg",
+          "image": "/images/cities/001.jpg"
         },
         {
           "position": 96,
           "country": "Portugal",
-          "city": "Porto"
+          "city": "Porto",
+          "flag": "https://flagcdn.com/w160/pt.jpg",
+          "image": "/images/cities/002.jpg"
         },
         {
           "position": 70,
           "country": "Bélgica",
-          "city": "Bruxelas"
+          "city": "Bruxelas",
+          "flag": "https://flagcdn.com/w160/be.jpg",
+          "image": "/images/cities/003.jpg"
         },
         {
           "position": 72,
           "country": "Dinamarca",
-          "city": "Copenhague"
+          "city": "Copenhague",
+          "flag": "https://flagcdn.com/w160/dk.jpg",
+          "image": "/images/cities/004.jpg"
         },
         {
           "position": 74,
           "country": "Polônia",
-          "city": "Varsóvia"
+          "city": "Varsóvia",
+          "flag": "https://flagcdn.com/w160/pl.jpg",
+          "image": "/images/cities/005.jpg"
         },
         {
           "position": 75,
           "country": "Polônia",
-          "city": "Cracóvia"
+          "city": "Cracóvia",
+          "flag": "https://flagcdn.com/w160/pl.jpg",
+          "image": "/images/cities/006.jpg"
         },
         {
           "position": 80,
           "country": "Ucrânia",
-          "city": "Lviv"
+          "city": "Lviv",
+          "flag": "https://flagcdn.com/w160/ua.jpg",
+          "image": "/images/cities/007.jpg"
         },
         {
           "position": 85,
           "country": "Suécia",
-          "city": "Estocolmo"
+          "city": "Estocolmo",
+          "flag": "https://flagcdn.com/w160/se.jpg",
+          "image": "/images/cities/008.jpg"
         }
       ]
     },
@@ -551,17 +747,23 @@
         {
           "position": 55,
           "country": "Austrália",
-          "city": "Sydney"
+          "city": "Sydney",
+          "flag": "https://flagcdn.com/w160/au.jpg",
+          "image": "/images/cities/009.jpg"
         },
         {
           "position": 76,
           "country": "Austrália",
-          "city": "Melbourne"
+          "city": "Melbourne",
+          "flag": "https://flagcdn.com/w160/au.jpg",
+          "image": "/images/cities/010.jpg"
         },
         {
           "position": 79,
           "country": "Nova Zelândia",
-          "city": "Auckland"
+          "city": "Auckland",
+          "flag": "https://flagcdn.com/w160/nz.jpg",
+          "image": "/images/cities/001.jpg"
         }
       ]
     }
