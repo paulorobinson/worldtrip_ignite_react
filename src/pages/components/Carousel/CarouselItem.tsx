@@ -2,18 +2,20 @@ import { Flex, Heading } from '@chakra-ui/react';
 import Link from 'next/link';
 
 interface CarouselItemProps {
+  id: number;
   image: string;
   title: string;
   description: string;
 }
 
 export const CarouselItem = ({
+  id,
   image,
   title,
   description,
 }: CarouselItemProps) => {
   return (
-    <Link href="/" passHref>
+    <Link href={`continent/${id}`} passHref>
       <Flex
         as="a"
         w="100%"

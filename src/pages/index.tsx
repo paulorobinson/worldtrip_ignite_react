@@ -1,6 +1,6 @@
 import { Flex, Heading } from '@chakra-ui/react';
 
-import type { NextPage } from 'next';
+import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 
 import { Banner } from './components/Banner';
@@ -8,8 +8,20 @@ import { Divider } from './components/Divider';
 import Header from './components/Header';
 import { Carousel } from './components/Carousel';
 import { TravelTypes } from './components/TravelTypes';
+import { api } from '../services/api';
 
-const Home: NextPage = () => {
+type IContinents = {
+  id: number;
+  continentName: string;
+  image: string;
+  description: string;
+};
+
+interface HomeProps {
+  continents: IContinents[];
+}
+
+const Home = ({ continents }: HomeProps) => {
   return (
     <>
       <Head>
@@ -40,7 +52,7 @@ const Home: NextPage = () => {
           px={{ base: '0', lg: '32' }}
           paddingBottom={{ base: '8', lg: '10' }}
         >
-          <Carousel />
+          <Carousel continents={continents} />
         </Flex>
       </Flex>
     </>
@@ -48,3 +60,24 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export const getStaticProps: GetStaticProps = async () => {
+  const data = await api
+    .get('/continents')
+    .then((res) => res.data)
+    .catch((err) => err);
+
+  const continents = data.map((continent: IContinents) => {
+    return {
+      id: continent.id,
+      continentName: continent.continentName,
+      image: continent.image,
+      description: continent.description,
+    };
+  });
+
+  return {
+    props: { continents },
+    revalidate: 60, // 1 min
+  };
+};

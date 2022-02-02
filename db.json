@@ -3,6 +3,8 @@
     {
       "id": 1,
       "continentName": "América do Norte",
+      "description": "Conheça países como Estados Unidos, México e Canadá",
+      "image": "/images/continents/north_america.jpg",
       "totalCountries": 4,
       "totalLanguage": 4,
       "plus100": [
@@ -71,6 +73,8 @@
     {
       "id": 2,
       "continentName": "América do Sul",
+      "description": "Conheça países como Argentina, Brasil e Chile",
+      "image": "/images/continents/south_america.jpg",
       "totalCountries": 12,
       "totalLanguage": 5,
       "plus100": [
@@ -99,6 +103,8 @@
     {
       "id": 3,
       "continentName": "Ásia",
+      "description": "Conheça países como China, Japão e Coreia",
+      "image": "/images/continents/asia.jpg",
       "totalCountries": 50,
       "totalLanguage": 4,
       "plus100": [
@@ -342,6 +348,8 @@
     {
       "id": 4,
       "continentName": "África",
+      "description": "Conheça os países do continente Africano",
+      "image": "/images/continents/africa.jpg",
       "totalCountries": 54,
       "totalLanguage": 5,
       "plus100": [
@@ -365,6 +373,8 @@
     {
       "id": 5,
       "continentName": "Europa",
+      "description": "O continente mais antigo do mundo",
+      "image": "/images/continents/europe.jpg",
       "totalCountries": 50,
       "totalLanguage": 6,
       "plus100": [
@@ -533,6 +543,8 @@
     {
       "id": 6,
       "continentName": "Oceania",
+      "description": "Conheça os países da Oceania",
+      "image": "/images/continents/oceania.jpg",
       "totalCountries": 14,
       "totalLanguage": 3,
       "plus100": [
