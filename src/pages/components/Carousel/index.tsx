@@ -9,7 +9,7 @@ type IContinents = {
   id: number;
   continentName: string;
   image: string;
-  description: string;
+  subtitle: string;
 };
 
 interface CarouselProps {
@@ -26,12 +26,12 @@ export const Carousel = ({ continents }: CarouselProps) => {
       autoplay={{ delay: 5000 }}
       loop={true}
     >
-      {continents.map(({ id, continentName, image, description }) => (
+      {continents.map(({ id, continentName, image, subtitle }) => (
         <SwiperSlide key={id}>
           <CarouselItem
             id={id}
             title={continentName}
-            description={description}
+            subtitle={subtitle}
             image={image}
           />
         </SwiperSlide>

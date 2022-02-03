@@ -5,14 +5,14 @@ interface CarouselItemProps {
   id: number;
   image: string;
   title: string;
-  description: string;
+  subtitle: string;
 }
 
 export const CarouselItem = ({
   id,
   image,
   title,
-  description,
+  subtitle,
 }: CarouselItemProps) => {
   return (
     <Link href={`continent/${id}`} passHref>
@@ -57,7 +57,7 @@ export const CarouselItem = ({
             fontWeight="bold"
             color="gray.300"
           >
-            {description}
+            {subtitle}
           </Heading>
         </Flex>
       </Flex>

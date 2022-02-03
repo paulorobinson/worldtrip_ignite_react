@@ -14,7 +14,7 @@ type IContinents = {
   id: number;
   continentName: string;
   image: string;
-  description: string;
+  subtitle: string;
 };
 
 interface HomeProps {
@@ -72,7 +72,7 @@ export const getStaticProps: GetStaticProps = async () => {
       id: continent.id,
       continentName: continent.continentName,
       image: continent.image,
-      description: continent.description,
+      subtitle: continent.subtitle,
     };
   });
 
