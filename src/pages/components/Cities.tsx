@@ -1,7 +1,18 @@
 import { Flex, Grid, Heading } from '@chakra-ui/react';
 import { Card } from './Card';
 
-export const Cities = () => {
+type plus100 = {
+  country: string;
+  city: string;
+  flag: string;
+  image: string;
+};
+
+interface CitiesProps {
+  cities: plus100[];
+}
+
+export const Cities = ({ cities }: CitiesProps) => {
   return (
     <Flex direction="column" px={{ base: '10', lg: '32' }}>
       <Heading
@@ -18,49 +29,17 @@ export const Cities = () => {
           xl: 'repeat(4, 1fr)',
         }}
         gap="10"
+        gridAutoRows="1fr"
       >
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
-        <Card
-          city="Londres"
-          country="Reino Unido"
-          image="../images/continents/europe.jpg"
-          flag="../images/continents/europe.jpg"
-        />
+        {cities.map(({ city, country, flag, image }, index) => (
+          <Card
+            key={index}
+            city={city}
+            country={country}
+            image={image}
+            flag={flag}
+          />
+        ))}
       </Grid>
     </Flex>
   );

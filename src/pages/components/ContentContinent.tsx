@@ -2,7 +2,19 @@ import { Flex, Grid, GridItem, Text, Tooltip } from '@chakra-ui/react';
 
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
-export const ContentContinent = () => {
+interface ContentContinentProps {
+  description: string;
+  totalCountries: number;
+  totalLanguages: number;
+  totalCitiesPlus100: number;
+}
+
+export const ContentContinent = ({
+  description,
+  totalCitiesPlus100,
+  totalCountries,
+  totalLanguages,
+}: ContentContinentProps) => {
   return (
     <Grid
       templateColumns={{ base: '1fr', md: '1fr 1fr' }}
@@ -11,12 +23,7 @@ export const ContentContinent = () => {
       py={{ base: '8', lg: '20' }}
     >
       <GridItem>
-        <Text fontSize={{ base: '16', lg: '20' }}>
-          A Europa é, por convenção, um dos seis continentes do mundo.
-          Compreendendo a península ocidental da Eurásia, a Europa geralmente
-          divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
-          rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
-        </Text>
+        <Text fontSize={{ base: '16', lg: '20' }}>{description}</Text>
       </GridItem>
       <GridItem>
         <Flex w="100%" h="100%" justify="space-between" align="center">
@@ -27,7 +34,7 @@ export const ContentContinent = () => {
               color="yellow.900"
               lineHeight="1"
             >
-              50
+              {totalCountries}
             </Text>
             <Text
               fontSize={{ base: '16', lg: '20' }}
@@ -44,7 +51,7 @@ export const ContentContinent = () => {
               color="yellow.900"
               lineHeight="1"
             >
-              60
+              {totalLanguages}
             </Text>
             <Text
               fontSize={{ base: '16', lg: '20' }}
@@ -61,7 +68,7 @@ export const ContentContinent = () => {
               color="yellow.900"
               lineHeight="1"
             >
-              27
+              {totalCitiesPlus100}
             </Text>
             <Flex align="center" justify="center">
               <Text

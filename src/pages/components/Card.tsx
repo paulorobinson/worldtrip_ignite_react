@@ -10,11 +10,11 @@ interface CardProps {
 export const Card = ({ image, country, city, flag }: CardProps) => {
   return (
     <GridItem>
-      <Flex direction="column" borderRadius="10" overflow="hidden">
+      <Flex direction="column" borderRadius="10" overflow="hidden" h="100%">
         <Image
           src={image}
           alt={city}
-          maxH={{ base: '150', md: '200' }}
+          minH={{ base: '150', md: '200' }}
           w="100%"
           objectFit="cover"
         />
@@ -24,6 +24,7 @@ export const Card = ({ image, country, city, flag }: CardProps) => {
           borderTop="none"
           borderColor="yellow.900"
           borderBottomRadius="10"
+          h="100%"
         >
           <Flex direction="column" py={{ base: '4', md: '8' }} w="100%">
             <Heading fontSize={{ base: '20', lg: '28' }} fontWeight="semibold">
@@ -38,7 +39,14 @@ export const Card = ({ image, country, city, flag }: CardProps) => {
             </Text>
           </Flex>
           <Flex justify="flex-end" align="center" w="100%">
-            <Image src={flag} alt="Londres" w="10" h="10" borderRadius="50%" />
+            <Image
+              src={flag}
+              alt="Londres"
+              objectFit="cover"
+              w="10"
+              h="10"
+              borderRadius="50%"
+            />
           </Flex>
         </Flex>
       </Flex>

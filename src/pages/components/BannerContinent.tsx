@@ -1,6 +1,11 @@
 import { Flex, Heading } from '@chakra-ui/react';
 
-export const BannerContinent = () => {
+interface BannerContinentProps {
+  continentName: string;
+  image: string;
+}
+
+export const BannerContinent = ({ continentName, image }) => {
   return (
     <Flex position="relative">
       <Flex
@@ -9,7 +14,7 @@ export const BannerContinent = () => {
         flexDirection="column"
         justify="center"
         align="center"
-        bgImage="../../images/continents/europe.jpg"
+        bgImage={image}
         bgSize="cover"
         bgPos="center"
         zIndex="0"
@@ -35,7 +40,7 @@ export const BannerContinent = () => {
             fontWeight="semibold"
             color="gray.200"
           >
-            Europa
+            {continentName}
           </Heading>
         </Flex>
       </Flex>
