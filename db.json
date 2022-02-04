@@ -7,7 +7,7 @@
       "description": "Canadá, Estados Unidos e México compõem a América do Norte, que é uma das três partes do grande continente chamado América. As outras duas são a América Central e a América do Sul. Algumas ilhas, como a Groenlândia (pertencente à Dinamarca), as Bermudas (ligadas ao Reino Unido) e Saint-Pierre e Miquelon (território francês), são associadas à América do Norte.",
       "image": "/images/continents/north_america.jpg",
       "totalCountries": 4,
-      "totalLanguage": 4,
+      "totalLanguages": 4,
       "plus100": [
         {
           "position": 8,
@@ -102,7 +102,7 @@
       "description": "A América do Sul tem doze países: Brasil, Uruguai, Paraguai, Argentina, Chile, Bolívia, Peru, Equador, Colômbia, Venezuela, Guiana e Suriname. Além deles, há um território dependente da França, a Guiana Francesa. As ilhas Falkland, ao largo da América do Sul, pertencem a um país de fora das Américas, o Reino Unido, embora a Argentina reivindique o arquipélago (os argentinos chamam o local de ilhas Malvinas). A América do Sul também faz parte de uma região cultural maior, conhecida como América Latina.",
       "image": "/images/continents/south_america.jpg",
       "totalCountries": 12,
-      "totalLanguage": 5,
+      "totalLanguages": 5,
       "plus100": [
         {
           "position": 89,
@@ -141,7 +141,7 @@
       "description": "De todos os continentes da Terra, a Ásia é o maior e mais populoso. Ela tem quase um terço da superfície seca do planeta e abriga mais da metade da população mundial.",
       "image": "/images/continents/asia.jpg",
       "totalCountries": 50,
-      "totalLanguage": 4,
+      "totalLanguages": 4,
       "plus100": [
         {
           "position": 1,
@@ -481,7 +481,7 @@
       "description": "A África é o terceiro maior continente do mundo e se compõe de mais de 50 países. Mais de um oitavo da população do mundo vive nela.",
       "image": "/images/continents/africa.jpg",
       "totalCountries": 54,
-      "totalLanguage": 5,
+      "totalLanguages": 5,
       "plus100": [
         {
           "position": 38,
@@ -513,7 +513,7 @@
       "description": "A Europa é um dos continentes da Terra. Ela é formada por dezenas de países e abriga uma grande diversidade geográfica, ambiental e cultural.",
       "image": "/images/continents/europe.jpg",
       "totalCountries": 50,
-      "totalLanguage": 6,
+      "totalLanguages": 6,
       "plus100": [
         {
           "position": 12,
@@ -748,7 +748,7 @@
       "description": "A Oceania é formada por cerca de 10 mil ilhas espalhadas pelo oceano Pacífico. Compreende, ao todo, catorze países: onze ficam nas ilhas menores, além de três países maiores, que são a Nova Zelândia, Papua-Nova Guiné e a Austrália (esta última, devido a seu tamanho, é considerada por si só um continente, em alguns sistemas geográficos). A Oceania é geralmente dividida em quatro áreas principais: Melanésia, Micronésia, Polinésia e Australásia. Sua superfície é de 9.008.458 km2, constituindo o menor continente da Terra.",
       "image": "/images/continents/oceania.jpg",
       "totalCountries": 14,
-      "totalLanguage": 3,
+      "totalLanguages": 3,
       "plus100": [
         {
           "position": 55,
